@@ -3,7 +3,7 @@
 const vowels = ['a','e','i','o','u']
 const noVowel = (str)=>{
     let str2 = str.split("")
-    console.log(str2)
+    // console.log(str2)
     let ans=""
     for(let i=0; i<str2.length; i++){
         if(!vowels.includes(str2[i])) ans +=str2[i]
